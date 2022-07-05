@@ -1,0 +1,447 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;;
+   scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+   height: 80px;
+   width: 100%;
+   position: fixed;
+   background-color: white;
+   top: 0;
+ z-index: 8;
+}
+.logo{
+    margin-top: 17px;
+    display: flex;
+}
+.logo h2{
+    font-family: sans-serif
+}
+.logo small{
+    letter-spacing: 2px;
+    color: rgba(247, 74, 43, 0.992);
+}
+.logo img{
+    width: 100px;
+    height: 80px;
+    margin-top: -22px;
+}
+.logotext{
+    margin-left: -16px;
+}
+.menu{
+    margin-top: 21px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+    font-size: 19px;
+    font-weight: 520;
+}
+li a:hover{
+    color: rgba(247, 74, 43, 0.992) !important;
+    transition: all ease .4s;
+}
+.home{
+    color: rgba(247, 74, 43, 0.992) !important;
+}
+/* header */
+.header{
+width: 100%;
+height: 90vh;
+display: flex;
+margin-top: 0px !important;
+}
+.headtext{
+    width: 25%;
+    height: 90vh;
+    background-color: rgba(255, 65, 65, 0.813);
+}
+.headtexts{
+    margin: 0 auto;
+     margin-top: 250px;
+    text-align: center;
+padding: 10px;
+color: white;
+}
+.headtexts h2{
+    letter-spacing: 3px;
+}
+.headtexts p{
+    margin-top: 8px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.headtexts button{
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: rgba(247, 74, 43, 0.992)
+}
+.headimg{
+    width: 75%;
+    height: 90vh;
+    background-image: url('./images/headimg.jpg');
+}
+/* about */
+#about{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 90px;
+}
+.abouttext{
+    width: 50%;
+    height: 50vh;
+}
+.abouttext h5{
+    color: rgba(247, 74, 43, 0.992);
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.abouttext h1{
+    margin-top: 25px;
+    letter-spacing: 1px;
+    font-weight:bold;
+}
+.abouttext p{
+    margin-top: 22px;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+.textimgs{
+    margin-left: -12px;
+}
+.textimgs img{
+    margin: 14px;
+    margin-top: 24px;
+    width: 150px;
+    height: 140px;
+}
+.aboutimg{
+    width: 40%;
+    height: 70vh;
+}
+.aboutimg img{
+    width: 470px;
+    height: 480px;
+}
+/* menu */
+#ourmenu{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 35px;
+    box-sizing: border-box;
+    height: 103vh;
+    background-color: rgba(250, 244, 237, 0.714);
+}
+.ourtext{
+    margin-left: 90px;
+    padding: 20px;
+    height: 200px;
+    margin-top: 40px;
+}
+.ourtext h1{
+    margin-top: 34px;
+}
+.ourtext h4{
+    color: rgba(247, 74, 43, 0.992);
+}
+.menuimgs{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.menuimgs img{
+    width: 270px;
+    height: 370px;
+    margin: 4px;
+}
+.menuall{
+    position: relative;
+    color: white;
+}
+.menuall h2{
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 4px;
+    padding: 10px;
+    width: 60px;
+    height: 50px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 900;
+    background-color:rgba(247, 74, 43, 0.992); ;
+}
+.menuall:hover .menutext{
+margin-top: -158px;
+height: 160px;
+}
+ .menutext{
+    width: 270px;
+    height: 25px;
+    text-align: center;
+    position: absolute;
+    margin-top: -31px;
+    margin-left: 4px;
+    background-color: rgba(247, 74, 43, 0.992);;
+    transition:all ease-out .6s;
+ overflow: hidden;
+}
+.menutext h3{
+    margin-top: 30px;
+}
+/* chif */
+#chif{
+    padding: 3px;
+    margin-top: -3px;
+}
+.chiftext{
+    text-align: center;
+    padding: 40px;;
+    margin-top: 70px;
+}
+.chiftext h4{
+    margin-bottom: 20px;
+   color: rgba(247, 74, 43, 0.992) ;
+}
+
+.chifimgs{
+    max-width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: -30px;
+}
+.chifimg{
+    text-align: center;
+    height: 60vh;
+    border: 1px solid gray;
+    margin: 15px;
+    border-radius: 4px;
+}
+.chifimg h3{
+    margin-top: 17px;
+    font-weight: 700;
+}
+.chifimg p{
+    margin-top: 4px;
+    font-weight: 500;
+}
+.chifimg img{
+margin: 6px;
+}
+/* contact */
+#contact{
+    width: 100%;
+    height: 80vh;
+    background:linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url('https://www.free-css.com/assets/files/free-css-templates/preview/page280/klassy-cafe/assets/images/slide-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    height: 94vh;
+}
+.contacttextfrom{
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.contactform h1{
+    text-align: center;
+    padding: 16px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+.contacttext{
+    color: white ;
+    max-width: 50%;
+    padding: 30px;
+    margin-top: 100px ;
+}
+.contacttext h4{
+   letter-spacing: 2px;
+   font-weight: 500;
+}
+.contacttext h1{
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+.contacttext p{
+    margin-top: 20px;
+}
+.numemail{
+    margin-top: 28px;
+    display: flex;
+}
+.email{
+    margin-left: 60px;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+}
+.num{
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+}
+.contactform{
+    margin-left: 40px;
+    margin-top: 100px ;
+    background-color: rgb(234, 234, 234);
+    height: 550px;
+    max-width: 46%;
+    padding: 40px;
+    border-radius: 8px;
+    
+}
+.table12{
+    display: flex;
+    margin-left: -19px;
+}
+.table12 input{
+    padding: 12px;
+    width: 100%;
+    display: block;
+    margin: 12px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 13.5px;
+   
+}
+.table1,.table2{
+    margin: 10px;
+}
+.contactform button{
+width: 100%;
+padding: 14px;
+color: white;
+background-color:  rgba(247, 74, 43, 0.992) ;
+font-weight: 700;
+border: none;
+border-radius: 4px;
+letter-spacing: 1px;
+cursor: pointer;
+}
+/* ofers */
+#offers{
+padding: 30px;
+}
+.ofertexts{
+    text-align: center;
+    padding: 28px;
+    margin-top: 40px;
+}
+.ofertexts h4{
+    margin-bottom: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.ofericon{
+    display: flex;
+text-align: center;
+padding: 16px;
+justify-content: center;
+align-items: center;
+}
+.ofericon h4{
+    margin: 14px;
+    cursor: pointer;
+}
+.ofericon h4:hover{
+    color: rgba(247, 74, 43, 0.992) !important;
+    transition: all ease .4s;
+}
+.oferall{
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.oferimgtext{
+    display: flex;
+    margin: 14px;
+    padding: 17px;
+}
+.ofertext{
+    margin: 19px;
+    margin-top: 15px;
+  
+}
+.ofertext h3{
+    margin-bottom: 9px;
+}
+.oferprice{
+    width: 100px;
+    height: 75px;
+    background-color: rgba(247, 74, 43, 0.992);
+    color: white;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 14px;
+}
+.oferimg{
+    border-radius: 9px;
+}
+.oferprice h3{
+    letter-spacing: 2px;
+}
+/* foter */
+.foter{
+    background-color: rgba(247, 74, 43, 0.992);
+    padding: 30px;
+    margin-top: 30px;
+}
+.foterall{
+    display: flex;
+    color: white;
+    max-width: 80%;
+    justify-content: space-around;
+    margin:  0 auto;
+}
+.foterall small{
+    color: white;
+}
+.fotericon i{
+    font-size: 36px;
+    margin: 12px;
+    cursor: pointer;
+    margin-top: 22px;
+}
+.fotertext{
+    margin-top: 22px;
+    initial-letter: 1px;
+    font-size: 17px;
+}
+.fotertext span{
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
+
