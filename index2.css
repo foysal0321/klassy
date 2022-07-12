@@ -1,0 +1,163 @@
+
+body{
+    overflow-x: hidden;
+}
+.navicon{
+display: none;
+}
+@media screen and (max-width:580px){
+   
+    #open{
+        margin-right: 30px;
+    }
+   
+    /*  */
+    .navicon{
+        display: block;
+        margin-top: 20px;
+        font-size: 32px;
+    }
+    .navicon i{
+        cursor: pointer;
+    }
+    /*  */
+    .chifimg{
+        width: 330px;
+        height: 410px;
+    }
+    .chifimg img{
+        width: 310px;
+    }
+    .contacttext{
+        max-width: 400px;
+    }
+    .contactform{
+        max-width: 330px ;
+        margin-left: -2px;
+        height: 580px;
+        margin-top: -20px;
+    }
+    .contactform textarea{
+   max-width: 240px;
+    }
+    /*  */
+    .oferall1,.oferall2{
+        margin-left: -80px ;
+    }
+    .oferimg{
+        margin-top: 17px;
+    }
+    .foterall{
+        padding: 10px;
+    }
+    .foterlogo{
+        margin-right: 120px;
+    }
+    .logotext small {
+     font-size: 12px;
+     letter-spacing: 1px;
+    }
+    
+}
+
+/* 700px */
+@media screen and (max-width:720px){
+    .header{      
+        height: 132vh;
+    }
+    .headtext{
+        width: 100%;
+        height: 400px ;
+       margin: 0px;       
+    }
+    .headtexts{
+       margin: 0;
+    }
+    .headtexts h2{
+        margin-top: 150px;
+    }
+    .headimg{
+        width: 100%;      
+    }
+    /*  */
+    .ourtext{
+        margin-left: -10px;
+    }
+  
+} 
+
+/* 1000px */
+@media screen and (max-width:1000px){
+    .navbar{
+        display: block;
+    }
+    .logoicon{
+        width: 90%;
+        display: flex;
+        justify-content:space-between;
+    }
+    .menu{
+       position: fixed;
+        left: -100%;
+        transition: 0.5s;
+        margin-top: 79px;
+       width: 100% ;
+        margin-top: 4px;
+       background-color: rgb(16, 255, 239);
+        height: 320px;
+    } 
+    .menu.active{
+        left: 0;
+    }
+    #clos{
+        display: none;
+    }
+    ul li{
+       display: block;
+       text-align: center;
+       padding: 12px;
+    }
+    li a{
+        color: rgb(0, 0, 0) !important;
+    }
+
+    .menu{
+        display: block;
+    }
+    .navicon{
+        display: block;
+        margin-top: 20px;
+        font-size: 32px;
+    }
+    /*  */
+    #about{
+        padding: 20px;
+    }
+    .abouttext h5{
+        margin-top: 50px;
+    }
+    contact{
+        height: 1700px;
+    }
+    
+}
+/* 1535 */
+@media screen and (max-width:1535px){
+   #about{
+        max-width: 100%;
+        padding: 90;
+    }
+    .abouttext{
+        padding: 20px;      
+    }
+    .aboutimg{
+        margin-right: 190px !important;  
+    }
+    .aboutimg img{
+        width: 500px ;
+        height:500px;              
+    }
+    #contact{
+        height: 1600px;
+    }
+}

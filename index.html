@@ -10,29 +10,41 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+ 
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="index2.css">
 </head>
 <body>
   <div id="main">
     <!-- Navbar -->
     <div class="navbar">
-        <div class="logo">
+        <div class="logoicon">
+            <div class="logo">
             <img src="./images/logo.png"/>
             <div class="logotext">
                  <h2>Klassy</h2>
             <small> SINCE 1990</small>
             </div>           
+        </div>  
+              <div class="navicon">
+            <i id="open" class="fa fa-bars"></i>
+            <i id="clos" class="fa fa-times"></i>
         </div>
+        </div>
+        
         <div class="menu">
             <ul>
-                <li ><a href="#main" class="home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#ourmenu">Menu</a></li>
-                <li><a href="#chif">Chefs</a></li>
-                <li><a href="#offers">Features</a></li>
-                <li> <a href="#contact">Contact Us</a></li>
+                <li ><a href="#main" class="click home">Home</a></li>
+                <li><a href="#about" class="click">About</a></li>
+                <li><a href="#ourmenu"class="click">Menu</a></li>
+                <li><a href="#chif"class="click">Chefs</a></li>
+                <li><a href="#offers"class="click">Features</a></li>
+                <li> <a href="#contact"class="click">Contact Us</a></li>
             </ul>
         </div>
+       
     </div>
  <!-- Hearder -->
 <div class="header">
@@ -49,7 +61,7 @@
 </div>
   </div>
   <!-- about -->
-  <div id="about">
+ <div id="about">
     <div class="abouttext">
         <h5>_ ABOUT US</h5>
         <h1>We Leave A Delicious <br> Memory For You</h1>
@@ -60,13 +72,13 @@
             <img src="./images/about2.jpg" />
             <img src="./images/about3.jpg" />
         </div>
-    </div>
-    <div class="aboutimg">
+    </div> 
+   <div class="aboutimg">
         <img src="./images/about.jpg"/>
     </div>
-  </div>
+  </div> 
   <!-- menu -->
-  <div id="ourmenu">
+ <div id="ourmenu">
     <div class="ourtext">
          <h4>_OUR MENU</h4>
          <h1>Our selection of cakes <br> with quality taste</h1>
@@ -114,9 +126,9 @@
         </div>   
         </div>               
     </div>
-  </div>
+  </div> 
   <!-- chif -->
-  <div id="chif">
+   <div id="chif">
     <div class="chiftext">
         <h4>_OUR CHEFS</h4>
   <h1>We offer the best <br> ingredients for you</h1>
@@ -138,7 +150,7 @@
           <p>Cookie Chef</p>  
        </div>
     </div>
-  </div>
+  </div> 
   <!-- contact -->
   <div id="contact">
     <div class="contacttextfrom">
@@ -177,9 +189,9 @@
         <button>Make A Reservation</button>
     </div>
     </div>
-  </div>
+  </div> 
   <!-- offers -->
-  <div id="offers">
+   <div id="offers">
     <div class="ofertexts">
         <h4 class="home">KLASSY WEEK</h4>
          <h1>This Week's Special <br> Meal Offers</h1> 
@@ -268,9 +280,9 @@
              </div>
         </div>
     </div>
-  </div>
+  </div>  
   <!-- foter -->
-  <div class="foter">
+ <div class="foter">
     <div class="foterall">
         <div class="fotericon">          
             <i class="fa-brands fa-facebook"></i>
@@ -292,7 +304,8 @@
             Design: <span>Foysal</span></p>
         </div>
     </div>
-  </div>
-
+  </div> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+   <script src="index.js"></script>
 </body>
 </html>
