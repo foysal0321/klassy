@@ -6,11 +6,10 @@ body{
 display: none;
 }
 @media screen and (max-width:580px){
-   
+  
     #open{
         margin-right: 30px;
-    }
-   
+    }   
     /*  */
     .navicon{
         display: block;
@@ -43,6 +42,7 @@ display: none;
     /*  */
     .oferall1,.oferall2{
         margin-left: -80px ;
+        max-width: 320px;
     }
     .oferimg{
         margin-top: 17px;
